@@ -1,4 +1,0 @@
-html, body, #root { height: 100%; }
-html { overflow-y: scroll; }
-body { margin: 0; background: #0B0B0C; }
-* { -webkit-font-smoothing: antialiased; }
