@@ -133,7 +133,7 @@ html, body {
   font-family: 'Inter', -apple-system, system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
-  min-height: 100vh;
+  min-height: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
