@@ -405,7 +405,8 @@ html, body {
   background: var(--surface);
   border-top: 1px solid var(--line);
   padding: 12px 16px;
-  margin-top: 24px;
+  position: sticky;
+  bottom: 0;
 }
 .ab-foot-in {
   max-width: 680px;
