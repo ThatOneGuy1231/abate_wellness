@@ -133,10 +133,11 @@ html, body {
   font-family: 'Inter', -apple-system, system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
-  min-height: 600px;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 56px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
 }
@@ -405,8 +406,11 @@ html, body {
   background: var(--surface);
   border-top: 1px solid var(--line);
   padding: 12px 16px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 .ab-foot-in {
   max-width: 680px;
