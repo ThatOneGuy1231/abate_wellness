@@ -106,7 +106,7 @@ Error generating stack: `+o.message+`
 
 /* remove iframe scrollbar — auto-resize handles height */
 html, body {
-  overflow: hidden;
+  overflow-y: auto;
   scrollbar-width: none;
   height: auto;
 }
