@@ -132,8 +132,6 @@ body { margin: 0; }
   background: var(--bg);
   min-height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
 }
@@ -143,7 +141,7 @@ body { margin: 0; }
   padding: 0;
 }
 .ab-serif { font-family: 'Cormorant', 'Georgia', serif; }
-.ab-wrap  { max-width: 680px; margin: 0 auto; padding: 24px 16px 40px; flex: 1; }
+.ab-wrap  { max-width: 680px; margin: 0 auto; padding: 24px 16px 40px; }
 
 /* header */
 .ab-brand { text-align: center; padding: 6px 0 2px; }
