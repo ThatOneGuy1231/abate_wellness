@@ -105,20 +105,12 @@ Error generating stack: `+o.message+`
  */const cl=et("X",[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]]),np=`
 
 /* remove iframe scrollbar — auto-resize handles height */
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-width: none;
-  height: auto;
-}
-::-webkit-scrollbar { display: none; }
+html { overflow-y: auto; scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
+body { margin: 0; }
 
 /* base */
 .ab {
-  overflow-x: hidden;
   --bg:          #0B0B0C;
   --surface:     #161617;
   --surface2:    #1C1C1E;
@@ -138,7 +130,7 @@ html, body {
   font-family: 'Inter', -apple-system, system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
-  min-height: 0;
+  min-height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
