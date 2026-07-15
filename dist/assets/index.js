@@ -134,7 +134,6 @@ body { margin: 0; }
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 56px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
 }
@@ -387,16 +386,12 @@ body { margin: 0; }
   gap: 6px;
 }
 
-/* sessions bar */
+/* sessions bar — static like AvailabilityEditor save bar; fixed breaks iOS iframe layout */
 .ab-foot {
   background: var(--surface);
   border-top: 1px solid var(--line);
   padding: 12px 16px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
+  margin-top: 24px;
 }
 .ab-foot-in {
   max-width: 680px;
