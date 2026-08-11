@@ -1209,7 +1209,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 /* ── top row: input + right panel ── */
 .fj-top   { max-width: 980px; margin: 22px auto 0; padding: 0 20px; display: flex; gap: 20px; align-items: flex-start; }
 .fj-left  { flex: 1; min-width: 0; }
-.fj-right { width: 252px; flex-shrink: 0; display: flex; flex-direction: column; }
+.fj-right { width: 252px; flex-shrink: 0; }
 
 /* ── full-width week section ── */
 .fj-week-section { max-width: 980px; margin: 20px auto 0; padding: 0 20px; }
@@ -1290,7 +1290,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 .fj-day-drop-hint { font-size: 10px; color: var(--line); text-align: center; padding: 18px 0; margin-top: auto; }
 
 /* ── recipes grid (under input box, left column) ── */
-.fj-recipes-header { display: flex; align-items: center; justify-content: space-between; margin-top: 28px; margin-bottom: 10px; }
+.fj-recipes-header { display: flex; align-items: center; justify-content: space-between; margin-top: 62px; margin-bottom: 10px; }
 .fj-recipe-nav { display: flex; gap: 4px; }
 .fj-recipe-nav button {
   background: var(--surface2); border: 1px solid var(--line); border-radius: 8px;
@@ -1314,7 +1314,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 /* ── advice box ── */
 .fj-advice {
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-  padding: 14px; margin-top: 10px; flex: 1;
+  padding: 14px; margin-top: 10px;
 }
 .fj-advice-head {
   font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
