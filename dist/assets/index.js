@@ -1254,10 +1254,10 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 
 /* ── weekly grid ── */
 .fj-week-label { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
-.fj-week-scroll { overflow-x: auto; padding-bottom: 6px; }
-.fj-week { display: flex; gap: 8px; min-width: max-content; }
+.fj-week-scroll { }
+.fj-week { display: flex; gap: 8px; }
 .fj-day-col {
-  width: 104px; background: var(--surface); border: 1px solid var(--line);
+  flex: 1; min-width: 0; background: var(--surface); border: 1px solid var(--line);
   border-radius: 12px; padding: 10px 9px; cursor: pointer;
   transition: border-color .15s, background .15s; min-height: 210px;
   display: flex; flex-direction: column;
@@ -1279,7 +1279,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
   display: flex; align-items: flex-start; gap: 4px;
   background: var(--surface2); border-radius: 7px; padding: 5px 6px;
 }
-.fj-entry.from-recipe { border-left: 2px solid var(--orange); }
+.fj-entry.from-recipe { }
 .fj-entry-feel  { font-size: 12px; flex-shrink: 0; line-height: 1.4; }
 .fj-entry-text  { flex: 1; font-size: 11px; line-height: 1.4; color: var(--text); word-break: break-word; }
 .fj-entry-del   { background: none; border: none; color: var(--line); cursor: pointer; font-size: 13px; flex-shrink: 0; padding: 0; transition: color .15s; line-height: 1; }
