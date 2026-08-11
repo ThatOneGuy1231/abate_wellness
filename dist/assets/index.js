@@ -1296,7 +1296,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 /* expandable search */
 .fj-search-wrap { display: flex; align-items: center; gap: 6px; }
 .fj-search-slide {
-  max-width: 0; overflow: hidden;
+  max-width: 0; overflow: hidden; display: flex; justify-content: flex-end;
   transition: max-width .52s cubic-bezier(.22,1,.36,1);
 }
 .fj-search-wrap.expanded .fj-search-slide { max-width: 150px; }
