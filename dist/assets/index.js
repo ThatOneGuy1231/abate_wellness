@@ -1209,7 +1209,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 /* ── top row: input + right panel ── */
 .fj-top   { max-width: 980px; margin: 22px auto 0; padding: 0 20px; display: flex; gap: 20px; align-items: flex-start; }
 .fj-left  { flex: 1; min-width: 0; }
-.fj-right { width: 252px; flex-shrink: 0; }
+.fj-right { width: 252px; flex-shrink: 0; display: flex; flex-direction: column; }
 
 /* ── full-width week section ── */
 .fj-week-section { max-width: 980px; margin: 20px auto 0; padding: 0 20px; }
@@ -1314,7 +1314,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 /* ── advice box ── */
 .fj-advice {
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-  padding: 14px; margin-top: 10px;
+  padding: 14px; margin-top: 10px; flex: 1;
 }
 .fj-advice-head {
   font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
