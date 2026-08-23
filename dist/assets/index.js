@@ -1543,8 +1543,8 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 .mp-lib-card:hover { opacity: .75; }
 .mp-lib-top   { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
 .mp-lib-icon  { display: flex; align-items: center; flex-shrink: 0; }
-.mp-lib-name  { font-size: 13px; font-weight: 600; }
-.mp-lib-meta  { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding-left: 28px; }
+.mp-lib-name  { font-size: 22px; font-weight: 700; line-height: 1.1; }
+.mp-lib-meta  { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding-left: 0; margin-top: 6px; }
 .mp-lib-dur   { font-size: 11px; color: var(--muted); }
 .mp-lib-diff  { font-size: 10px; color: var(--muted); }
 @keyframes cardJiggleMP {
