@@ -1628,7 +1628,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 }
 @keyframes mpBackdropIn { from { opacity: 0; } to { opacity: 1; } }
 .mp-modal {
-  background: var(--bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  background: var(--bg); border: 1px solid var(--line);
   width: min(700px, 95vw); max-height: 88vh; overflow: hidden; display: flex; flex-direction: column;
   animation: mpModalIn .26s cubic-bezier(.22,1,.36,1) both;
 }
