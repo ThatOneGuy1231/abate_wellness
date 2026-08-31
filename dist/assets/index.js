@@ -1557,7 +1557,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 .mp-lib-row   { display: flex; align-items: center; gap: 10px; }
 .mp-lib-icon  { display: flex; align-items: center; flex-shrink: 0; }
 .mp-lib-text  { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
-.mp-lib-name  { font-size: 20px; font-weight: 600; line-height: 1.1; font-family: 'Cormorant', serif; }
+.mp-lib-name  { font-size: 20px; font-weight: 600; line-height: 1.1; font-family: 'Cormorant', serif; font-style: normal; }
 .mp-lib-meta  { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .mp-lib-dur   { font-size: 11px; color: var(--muted); }
 .mp-lib-diff  { font-size: 10px; color: var(--muted); }
