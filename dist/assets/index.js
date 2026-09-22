@@ -299,6 +299,7 @@ body { margin: 0; }
    icon badge and eyebrow label only, same as My Program's workout rows. */
 .ab-slot {
   position: relative;
+  z-index: 0;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -311,13 +312,22 @@ body { margin: 0; }
   overflow: hidden;
   transition: background .12s;
 }
-.ab-slot.reserved {
+.ab-slot.reserved { opacity: .5; }
+/* Diagonal texture lives on its own layer behind the row's content, masked
+   to fade out at both edges instead of cutting off hard. */
+.ab-slot.reserved::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: repeating-linear-gradient(
     45deg,
     #121214, #121214 7px,
     #161618, #161618 14px
   );
-  opacity: .5;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 20%, #000 80%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 20%, #000 80%, transparent);
+  pointer-events: none;
 }
 .ab-slot.mine { background: var(--orange); border-color: var(--orange); opacity: 1; }
 
