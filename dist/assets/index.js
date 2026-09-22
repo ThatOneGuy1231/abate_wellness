@@ -325,8 +325,8 @@ body { margin: 0; }
     #121214, #121214 7px,
     #161618, #161618 14px
   );
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
-          mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+          mask-image: linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 40px), transparent);
   pointer-events: none;
 }
 .ab-slot.mine { background: var(--orange); border-color: var(--orange); opacity: 1; }
