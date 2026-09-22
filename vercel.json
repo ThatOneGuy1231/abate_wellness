@@ -12,6 +12,24 @@
           "value": "*"
         }
       ]
+    },
+    {
+      "source": "/assets/index.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
+      "source": "/assets/index.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
     }
   ]
 }
