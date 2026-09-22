@@ -306,7 +306,7 @@ body { margin: 0; }
   border: none;
   border-bottom: 1px solid var(--line);
   border-radius: 0;
-  padding: 15px 0;
+  padding: 15px 6px;
   margin-bottom: 0;
   overflow: hidden;
   transition: background .12s;
