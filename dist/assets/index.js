@@ -290,7 +290,9 @@ body { margin: 0; }
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 24px 0 10px;
+  margin: 24px 0 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
 }
 
 /* slot rows — flat list rows, not rounded cards. Tier color lives in the
