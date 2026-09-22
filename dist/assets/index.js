@@ -293,23 +293,22 @@ body { margin: 0; }
   margin: 24px 0 10px;
 }
 
-/* slot cards */
+/* slot rows — flat list rows, not rounded cards. Tier color lives in the
+   icon badge and eyebrow label only, same as My Program's workout rows. */
 .ab-slot {
   position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 15px;
-  margin-bottom: 11px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding: 15px 0;
+  margin-bottom: 0;
   overflow: hidden;
-  transition: transform .12s, box-shadow .12s, border-color .12s;
+  transition: background .12s;
 }
-/* Preferred stays flat like the rest of the card — the orange icon badge and
-   "Andrea's Pick" label are the accent, not a tinted fill. */
-.ab-slot.open      { background: var(--blush-tint);  border-color: var(--blush-bd);  }
 .ab-slot.reserved {
   background: repeating-linear-gradient(
     45deg,
