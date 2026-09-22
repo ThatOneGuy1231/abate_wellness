@@ -307,7 +307,8 @@ body { margin: 0; }
   overflow: hidden;
   transition: transform .12s, box-shadow .12s, border-color .12s;
 }
-.ab-slot.preferred { background: var(--orange-tint); border-color: var(--orange-bd); }
+/* Preferred stays flat like the rest of the card — the orange icon badge and
+   "Andrea's Pick" label are the accent, not a tinted fill. */
 .ab-slot.open      { background: var(--blush-tint);  border-color: var(--blush-bd);  }
 .ab-slot.reserved {
   background: repeating-linear-gradient(
